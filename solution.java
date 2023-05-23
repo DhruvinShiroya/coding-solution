@@ -9,7 +9,7 @@ public class Challenge {
         {
             return 0;
         }else if(str.length() ==1 ){
-            return 0;
+            return str.charAt(0);
         }else {
             Map<Character,Integer> charMap = new HashMap<Character,Integer>();
             for (int i = 0; i < str.length(); i++) {
